@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3112CBF62D43A91F0063BD62 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CBF52D43A91F0063BD62 /* City.swift */; };
+		3112CBF92D43A94D0063BD62 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CBF82D43A94D0063BD62 /* CityViewModel.swift */; };
+		3112CBFC2D43A9800063BD62 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CBFB2D43A9800063BD62 /* CityListView.swift */; };
+		3112CBFF2D43A9A70063BD62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CBFE2D43A9A70063BD62 /* Constants.swift */; };
+		3112CC012D43AB3A0063BD62 /* au_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 3112CC002D43AB390063BD62 /* au_cities.json */; };
+		3112CC032D43AC110063BD62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112CC022D43AC110063BD62 /* ContentView.swift */; };
+		314F585B2D439FA300D813D7 /* AustraliaTourPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F585A2D439FA300D813D7 /* AustraliaTourPlanApp.swift */; };
+		314F585F2D439FA400D813D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314F585E2D439FA400D813D7 /* Assets.xcassets */; };
+		314F58622D439FA400D813D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314F58612D439FA400D813D7 /* Preview Assets.xcassets */; };
+		314F58642D439FA400D813D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F58632D439FA400D813D7 /* Persistence.swift */; };
+		314F58672D439FA400D813D7 /* AustraliaTourPlan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 314F58652D439FA400D813D7 /* AustraliaTourPlan.xcdatamodeld */; };
+		314F58712D439FA400D813D7 /* AustraliaTourPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F58702D439FA400D813D7 /* AustraliaTourPlanTests.swift */; };
+		314F587B2D439FA400D813D7 /* AustraliaTourPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F587A2D439FA400D813D7 /* AustraliaTourPlanUITests.swift */; };
+		314F587D2D439FA400D813D7 /* AustraliaTourPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F587C2D439FA400D813D7 /* AustraliaTourPlanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314F586D2D439FA400D813D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314F584F2D439FA300D813D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314F58562D439FA300D813D7;
+			remoteInfo = AustraliaTourPlan;
+		};
+		314F58772D439FA400D813D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 314F584F2D439FA300D813D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314F58562D439FA300D813D7;
+			remoteInfo = AustraliaTourPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3112CBF52D43A91F0063BD62 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		3112CBF82D43A94D0063BD62 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		3112CBFB2D43A9800063BD62 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		3112CBFE2D43A9A70063BD62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3112CC002D43AB390063BD62 /* au_cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = au_cities.json; sourceTree = "<group>"; };
+		3112CC022D43AC110063BD62 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		314F58572D439FA300D813D7 /* AustraliaTourPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustraliaTourPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F585A2D439FA300D813D7 /* AustraliaTourPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustraliaTourPlanApp.swift; sourceTree = "<group>"; };
+		314F585E2D439FA400D813D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		314F58612D439FA400D813D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		314F58632D439FA400D813D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		314F58662D439FA400D813D7 /* AustraliaTourPlan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AustraliaTourPlan.xcdatamodel; sourceTree = "<group>"; };
+		314F586C2D439FA400D813D7 /* AustraliaTourPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustraliaTourPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F58702D439FA400D813D7 /* AustraliaTourPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustraliaTourPlanTests.swift; sourceTree = "<group>"; };
+		314F58762D439FA400D813D7 /* AustraliaTourPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustraliaTourPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314F587A2D439FA400D813D7 /* AustraliaTourPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustraliaTourPlanUITests.swift; sourceTree = "<group>"; };
+		314F587C2D439FA400D813D7 /* AustraliaTourPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustraliaTourPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		314F58542D439FA300D813D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F58692D439FA400D813D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F58732D439FA400D813D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3112CBF42D43A9080063BD62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3112CBF52D43A91F0063BD62 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3112CBF72D43A9360063BD62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3112CBF82D43A94D0063BD62 /* CityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3112CBFA2D43A9660063BD62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3112CBFB2D43A9800063BD62 /* CityListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3112CBFD2D43A9960063BD62 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3112CBFE2D43A9A70063BD62 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		314F584E2D439FA300D813D7 = {
+			isa = PBXGroup;
+			children = (
+				314F58592D439FA300D813D7 /* AustraliaTourPlan */,
+				314F586F2D439FA400D813D7 /* AustraliaTourPlanTests */,
+				314F58792D439FA400D813D7 /* AustraliaTourPlanUITests */,
+				314F58582D439FA300D813D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		314F58582D439FA300D813D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				314F58572D439FA300D813D7 /* AustraliaTourPlan.app */,
+				314F586C2D439FA400D813D7 /* AustraliaTourPlanTests.xctest */,
+				314F58762D439FA400D813D7 /* AustraliaTourPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314F58592D439FA300D813D7 /* AustraliaTourPlan */ = {
+			isa = PBXGroup;
+			children = (
+				3112CC022D43AC110063BD62 /* ContentView.swift */,
+				3112CC002D43AB390063BD62 /* au_cities.json */,
+				3112CBFD2D43A9960063BD62 /* Utilities */,
+				3112CBFA2D43A9660063BD62 /* Views */,
+				3112CBF72D43A9360063BD62 /* ViewModels */,
+				3112CBF42D43A9080063BD62 /* Model */,
+				314F585A2D439FA300D813D7 /* AustraliaTourPlanApp.swift */,
+				314F585E2D439FA400D813D7 /* Assets.xcassets */,
+				314F58632D439FA400D813D7 /* Persistence.swift */,
+				314F58652D439FA400D813D7 /* AustraliaTourPlan.xcdatamodeld */,
+				314F58602D439FA400D813D7 /* Preview Content */,
+			);
+			path = AustraliaTourPlan;
+			sourceTree = "<group>";
+		};
+		314F58602D439FA400D813D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				314F58612D439FA400D813D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		314F586F2D439FA400D813D7 /* AustraliaTourPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				314F58702D439FA400D813D7 /* AustraliaTourPlanTests.swift */,
+			);
+			path = AustraliaTourPlanTests;
+			sourceTree = "<group>";
+		};
+		314F58792D439FA400D813D7 /* AustraliaTourPlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				314F587A2D439FA400D813D7 /* AustraliaTourPlanUITests.swift */,
+				314F587C2D439FA400D813D7 /* AustraliaTourPlanUITestsLaunchTests.swift */,
+			);
+			path = AustraliaTourPlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		314F58562D439FA300D813D7 /* AustraliaTourPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F58802D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlan" */;
+			buildPhases = (
+				314F58532D439FA300D813D7 /* Sources */,
+				314F58542D439FA300D813D7 /* Frameworks */,
+				314F58552D439FA300D813D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AustraliaTourPlan;
+			productName = AustraliaTourPlan;
+			productReference = 314F58572D439FA300D813D7 /* AustraliaTourPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314F586B2D439FA400D813D7 /* AustraliaTourPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F58832D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlanTests" */;
+			buildPhases = (
+				314F58682D439FA400D813D7 /* Sources */,
+				314F58692D439FA400D813D7 /* Frameworks */,
+				314F586A2D439FA400D813D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314F586E2D439FA400D813D7 /* PBXTargetDependency */,
+			);
+			name = AustraliaTourPlanTests;
+			productName = AustraliaTourPlanTests;
+			productReference = 314F586C2D439FA400D813D7 /* AustraliaTourPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		314F58752D439FA400D813D7 /* AustraliaTourPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314F58862D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlanUITests" */;
+			buildPhases = (
+				314F58722D439FA400D813D7 /* Sources */,
+				314F58732D439FA400D813D7 /* Frameworks */,
+				314F58742D439FA400D813D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314F58782D439FA400D813D7 /* PBXTargetDependency */,
+			);
+			name = AustraliaTourPlanUITests;
+			productName = AustraliaTourPlanUITests;
+			productReference = 314F58762D439FA400D813D7 /* AustraliaTourPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		314F584F2D439FA300D813D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					314F58562D439FA300D813D7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					314F586B2D439FA400D813D7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 314F58562D439FA300D813D7;
+					};
+					314F58752D439FA400D813D7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 314F58562D439FA300D813D7;
+					};
+				};
+			};
+			buildConfigurationList = 314F58522D439FA300D813D7 /* Build configuration list for PBXProject "AustraliaTourPlan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 314F584E2D439FA300D813D7;
+			productRefGroup = 314F58582D439FA300D813D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				314F58562D439FA300D813D7 /* AustraliaTourPlan */,
+				314F586B2D439FA400D813D7 /* AustraliaTourPlanTests */,
+				314F58752D439FA400D813D7 /* AustraliaTourPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		314F58552D439FA300D813D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3112CC012D43AB3A0063BD62 /* au_cities.json in Resources */,
+				314F58622D439FA400D813D7 /* Preview Assets.xcassets in Resources */,
+				314F585F2D439FA400D813D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F586A2D439FA400D813D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F58742D439FA400D813D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314F58532D439FA300D813D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F58642D439FA400D813D7 /* Persistence.swift in Sources */,
+				3112CBF92D43A94D0063BD62 /* CityViewModel.swift in Sources */,
+				3112CC032D43AC110063BD62 /* ContentView.swift in Sources */,
+				3112CBF62D43A91F0063BD62 /* City.swift in Sources */,
+				3112CBFC2D43A9800063BD62 /* CityListView.swift in Sources */,
+				314F58672D439FA400D813D7 /* AustraliaTourPlan.xcdatamodeld in Sources */,
+				314F585B2D439FA300D813D7 /* AustraliaTourPlanApp.swift in Sources */,
+				3112CBFF2D43A9A70063BD62 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F58682D439FA400D813D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F58712D439FA400D813D7 /* AustraliaTourPlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314F58722D439FA400D813D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F587D2D439FA400D813D7 /* AustraliaTourPlanUITestsLaunchTests.swift in Sources */,
+				314F587B2D439FA400D813D7 /* AustraliaTourPlanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314F586E2D439FA400D813D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314F58562D439FA300D813D7 /* AustraliaTourPlan */;
+			targetProxy = 314F586D2D439FA400D813D7 /* PBXContainerItemProxy */;
+		};
+		314F58782D439FA400D813D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314F58562D439FA300D813D7 /* AustraliaTourPlan */;
+			targetProxy = 314F58772D439FA400D813D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		314F587E2D439FA400D813D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		314F587F2D439FA400D813D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314F58812D439FA400D813D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AustraliaTourPlan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		314F58822D439FA400D813D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AustraliaTourPlan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		314F58842D439FA400D813D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustraliaTourPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AustraliaTourPlan";
+			};
+			name = Debug;
+		};
+		314F58852D439FA400D813D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustraliaTourPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AustraliaTourPlan";
+			};
+			name = Release;
+		};
+		314F58872D439FA400D813D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AustraliaTourPlan;
+			};
+			name = Debug;
+		};
+		314F58882D439FA400D813D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Learn-SwiftUI.Hemant.AustraliaTourPlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AustraliaTourPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		314F58522D439FA300D813D7 /* Build configuration list for PBXProject "AustraliaTourPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F587E2D439FA400D813D7 /* Debug */,
+				314F587F2D439FA400D813D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F58802D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F58812D439FA400D813D7 /* Debug */,
+				314F58822D439FA400D813D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F58832D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F58842D439FA400D813D7 /* Debug */,
+				314F58852D439FA400D813D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314F58862D439FA400D813D7 /* Build configuration list for PBXNativeTarget "AustraliaTourPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314F58872D439FA400D813D7 /* Debug */,
+				314F58882D439FA400D813D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		314F58652D439FA400D813D7 /* AustraliaTourPlan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				314F58662D439FA400D813D7 /* AustraliaTourPlan.xcdatamodel */,
+			);
+			currentVersion = 314F58662D439FA400D813D7 /* AustraliaTourPlan.xcdatamodel */;
+			path = AustraliaTourPlan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 314F584F2D439FA300D813D7 /* Project object */;
+}
